@@ -1,0 +1,67 @@
+// LEVEL 2
+
+            //var line = "";
+            //List<Argument> argsList = new List<Argument>();
+
+            //do
+            //{
+            //    line = Console.ReadLine().ToLower();
+            //    var cells = line.Split(" ");
+            //    if (cells[0] == "arg" && cells.Length == 3)
+            //    {
+            //        var name = cells[1];
+            //        var value = cells[2];
+            //        Argument arg1 = new Argument($"{name} = {value}");
+            //        argsList.Add(arg1);
+            //    }
+            //    else if (cells[0] == "calc")
+            //    {
+            //        var expString = line.Substring(5);
+            //        Expression e = new Expression(expString, argsList.ToArray());
+            //        Console.WriteLine(e.calculate());
+            //    }
+            //    else if (line == "help")
+            //    {
+            //        Console.WriteLine("===Declaring arguments===");
+            //        Console.WriteLine("arg variableName value");
+            //        Console.WriteLine("arg x 25");
+            //        Console.WriteLine("arg y 15\n");
+            //        Console.WriteLine("===Evaluating expressions===");
+            //        Console.WriteLine("calc expression");
+            //        Console.WriteLine("calc (x + y) / 2");
+            //    }
+            //    else if (cells[0] == "=")
+            //    {
+            //        var expString = line.Substring(2);
+            //        var cellsArr = line.Split(" ");
+            //        if (cellsArr.Length == 2)
+            //        {
+
+            //            var compareName = cellsArr[1];
+            //            var theArg = argsList.Find(x => x.getArgumentName() == compareName);
+            //            Expression e1 = new Expression(theArg.getArgumentExpressionString(), argsList.ToArray());
+            //            Console.WriteLine(e1.calculate());
+
+            //        }
+            //        else
+            //        {
+            //            Expression e = new Expression(expString, argsList.ToArray());
+            //            e.addArguments(argsList.ToArray());
+            //            Console.WriteLine(e.calculate());
+
+            //        }
+
+
+
+
+            //    }
+            //    else
+            //    {
+            //        string varName = cells[0];
+            //        string value = line.Substring(varName.Length + 3);
+
+            //        Argument arg = new Argument($"{varName} = {value}");
+            //        argsList.Add(arg);
+            //    }
+
+            //} while (line != "quit");
